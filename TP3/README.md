@@ -30,3 +30,12 @@
   
 # Exercice 2 :
 ![image](https://user-images.githubusercontent.com/92756846/222268218-2f7f7345-d525-4351-8ea7-154e4572eed0.png)
+  
+  
+  5. Resources
+ 
+  ![image](https://user-images.githubusercontent.com/92756846/222280325-dba608bf-7435-4f41-90fd-807d62a4183c.png)
+  
+  6. Output 
+  
+  ![image](https://user-images.githubusercontent.com/92756846/222280343-a35128a3-9a42-42cf-a247-0341888ae866.png)
