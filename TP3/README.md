@@ -98,6 +98,7 @@
   <br><br>
   
 # Exercice 2 :
-  Nous souhaitons, dans cet exercice d’analyser les données météorologiques fournies par NCEI (National Centers for Environmental Information) à l'aide de Spark. <br>
+    Nous souhaitons, dans cet exercice d’analyser les données météorologiques fournies par NCEI (National Centers for Environmental Information) à l'aide de Spark. 
+    
 ![image](https://user-images.githubusercontent.com/92756846/224803108-f81f27f4-05d9-4b62-ab13-a531f32f8042.png)
 
