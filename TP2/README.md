@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Exercice 1 :
-=======
 # TP2: Map Reduce
 
 ## Exercice 1 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
 ![image](https://user-images.githubusercontent.com/92756846/222268336-d5ffe0a6-c0aa-4681-a7a2-484962d70ab6.png)
 
   #### Projet
@@ -34,11 +30,7 @@
 
   
   
-<<<<<<< HEAD
-# Exercice 2 :
-=======
 ## Exercice 2 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
 ![image](https://user-images.githubusercontent.com/92756846/222268218-2f7f7345-d525-4351-8ea7-154e4572eed0.png)
   
   
