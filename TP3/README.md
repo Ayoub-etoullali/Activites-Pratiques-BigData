@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Exercice 1 :
-=======
 # TP3: Spark - Programmation des RDDs
 
 ## Exercice 1 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
 ![image](https://user-images.githubusercontent.com/92756846/224797797-afeeedde-1923-480e-b33e-f23071c1b312.png)
 
   #### <RDD 1> 
@@ -98,21 +94,13 @@
 
   <br><br>
   
-<<<<<<< HEAD
-# Exercice 2 :
-=======
 ## Exercice 2 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
 ![image](https://user-images.githubusercontent.com/92756846/224802856-e9fefc64-4178-4037-b94b-8b48dfdc1439.png)
   
   #### Fichier "ventes.txt"
   ![image](https://user-images.githubusercontent.com/92756846/225772439-ea4eb6c8-1472-40a0-b109-bf214532374b.png)
 
-<<<<<<< HEAD
-  ## Question 1 :
-=======
   ### Question 1 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
   
   #### Transformation des lignes en tuples (ville, vente)
   ![image](https://user-images.githubusercontent.com/92756846/225772577-f64d994c-4db0-4f35-b7d6-6f093cb089b2.png)
@@ -121,11 +109,7 @@
   ![image](https://user-images.githubusercontent.com/92756846/225772704-3c76ac18-40d9-4e91-b077-a4bfcd9fbe1a.png)
 
 
-<<<<<<< HEAD
-  ## Question 2 : 
-=======
   ### Question 2 : 
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
   
   #### Transformation des lignes en tuples (Année+ville, vente) 
   ![image](https://user-images.githubusercontent.com/92756846/225772744-38e2fffb-75ce-4d6f-b540-ccb3e1c74dac.png)
@@ -136,11 +120,7 @@
   
   <br><br>
   
-<<<<<<< HEAD
-# Exercice 3 :
-=======
 ## Exercice 3 :
->>>>>>> 4c60a0dc1d4a1c2ebb4a8a39850b32f80743e2f1
     Nous souhaitons, dans cet exercice d’analyser les données météorologiques fournies par NCEI (National Centers for Environmental Information) à l'aide de Spark. 
     
 ![image](https://user-images.githubusercontent.com/92756846/224803108-f81f27f4-05d9-4b62-ab13-a531f32f8042.png)
