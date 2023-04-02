@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b62c7a5-205f-48ad-bd89-2ef12705bb91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/names1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/names2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/names3.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spark Streaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/Tests/spark Streaming/src/main/resources/input/names&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/Tests/spark-sql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\java\ma\enset" />
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources" />
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\names" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input\names" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\names" />
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src" />
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input\ventes" />
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input" />
@@ -98,6 +101,10 @@
       <workItem from="1679326221199" duration="1418000" />
       <workItem from="1679329510687" duration="11998000" />
       <workItem from="1679346916111" duration="644000" />
+      <workItem from="1679645028200" duration="1372000" />
+      <workItem from="1680074038506" duration="400000" />
+      <workItem from="1680074489408" duration="35000" />
+      <workItem from="1680095032486" duration="3940000" />
     </task>
     <servers />
   </component>

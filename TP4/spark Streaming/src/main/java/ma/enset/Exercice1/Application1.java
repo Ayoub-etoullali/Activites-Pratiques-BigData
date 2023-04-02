@@ -17,12 +17,13 @@ public class Application1 {
 
         SparkConf conf=new SparkConf().setAppName("Word Count with socket - Spark Streaming").setMaster("local[*]");
 
-        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(1000));
+        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(5000));
 
-        JavaDStream<String> DStreamLines=sc.textFileStream("names");
+        JavaDStream<String> DStreamLines=sc.textFileStream("D:\\Leçons\\ENSET Mohammedia\\ENSET\\S4\\Big data\\TPs\\Activites-Pratiques-BigData\\TP4\\spark Streaming\\src\\main\\resources\\input\\names");
 
         Logger.getLogger("org").setLevel(Level.OFF);
-        /*
+
+/*
         Logger.getLogger("org").setLevel(Level.ERROR);
 
         Logger rootLogger = Logger.getRootLogger();
@@ -31,6 +32,7 @@ public class Application1 {
         Logger.getLogger("org.apache.spark").setLevel(Level.WARN);
         Logger.getLogger("org.spark-project").setLevel(Level.WARN);
          */
+
 
         JavaDStream<String> DStreamWords = DStreamLines.flatMap(line -> Arrays.asList(line.split(" ")).iterator());
 
