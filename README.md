@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # Activité Pratique 👨🏻‍💻 
 ![image](https://user-images.githubusercontent.com/92756846/222263598-0861eadf-a0c2-4467-b49d-6d023f63a570.png)
