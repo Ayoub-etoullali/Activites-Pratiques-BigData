@@ -1,0 +1,6 @@
+[
+  {"id": 1,"name": "Ahmed","age": 27,"salary": 20000.0,"departement": "dev"},
+  {"id": 2,"name": "Said","age": 37,"salary": 22000.0,"departement": "reseau"},
+  {"id": 3,"name": "Asmae","age": 25,"salary": 30000.0,"departement": "dev"},
+  {"id": 4,"name": "Karim","age": 40,"salary": 30000.0,"departement": "reseau"}
+]
