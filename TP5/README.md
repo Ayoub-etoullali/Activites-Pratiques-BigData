@@ -2,6 +2,7 @@
 
 ## Enoncé : 
 L’hôpital national souhaite traiter ces données au moyen d’une application Spark d’une manière parallèle est distribuée. L’hôpital possède des données stockées dans une base de données relationnel et des fichiers csv. L’objectif est de traiter ces données en utilisant Spark SQL à travers les APIs DataFrame et Dataset pour extraire des informations utiles afin de prendre des décisions.
+***
 
   ### I. Traitement de données stockées dans Mysql
   L’hôpital possède une application web pour gérer les consultations de ces patients, les données sont stockées dans une base de données MYSQL nommée DB_HOPITAL, qui contient trois tables PATIENTS, MEDECINS et CONSULTATIONS.
