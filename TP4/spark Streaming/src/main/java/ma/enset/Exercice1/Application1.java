@@ -14,16 +14,11 @@ import java.util.Arrays;
 public class Application1 {
     public static void main(String[] args) throws InterruptedException {
 
-
-        SparkConf conf=new SparkConf().setAppName("Word Count with socket - Spark Streaming").setMaster("local[*]");
-
-        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(5000));
-
-        JavaDStream<String> DStreamLines=sc.textFileStream("D:\\Leçons\\ENSET Mohammedia\\ENSET\\S4\\Big data\\TPs\\Activites-Pratiques-BigData\\TP4\\spark Streaming\\src\\main\\resources\\input\\names");
-
         Logger.getLogger("org").setLevel(Level.OFF);
 
-/*
+        /*
+        Logger.getLogger("org").setLevel(Level.ERROR);
+
         Logger.getLogger("org").setLevel(Level.ERROR);
 
         Logger rootLogger = Logger.getRootLogger();
@@ -33,16 +28,24 @@ public class Application1 {
         Logger.getLogger("org.spark-project").setLevel(Level.WARN);
          */
 
+        // Create a local StreamingContext with two working thread and batch interval of 1 second
+        SparkConf conf=new SparkConf().setAppName("Word Count with file - Spark Streaming").setMaster("local[*]");
 
+        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(10000));
+
+//        JavaDStream<String> DStreamLines=sc.textFileStream("D:\\Leçons\\ENSET Mohammedia\\ENSET\\S4\\Big data\\TPs\\Activites-Pratiques-BigData\\TP4\\spark Streaming\\src\\main\\resources\\input\\names");
+        JavaDStream<String> DStreamLines=sc.textFileStream("src/main/resources/input/names");
+
+        // Split each line into words
         JavaDStream<String> DStreamWords = DStreamLines.flatMap(line -> Arrays.asList(line.split(" ")).iterator());
 
         JavaPairDStream<String, Integer> DStreamWordsPair = DStreamWords.mapToPair(mot -> new Tuple2<>(mot, 1));
 
         JavaPairDStream<String, Integer> DStreamWordsPairCount = DStreamWordsPair.reduceByKey((a, b) -> a + b);
 
-        DStreamWordsPairCount.print();
-        sc.start();
-        sc.awaitTermination();
+        DStreamWordsPairCount.print(); // Print the first ten elements of each RDD generated in this DStream to the console
+        sc.start(); // Start the computation
+        sc.awaitTermination(); // Wait for the computation to terminate
 
     }
 }

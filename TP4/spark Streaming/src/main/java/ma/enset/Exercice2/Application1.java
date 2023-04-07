@@ -8,15 +8,19 @@ import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import scala.Tuple2;
 
 import java.util.Arrays;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Application1 {
     public static void main(String[] args) throws InterruptedException {
 
-        SparkConf conf=new SparkConf().setAppName("Exercice Vente with socket - Spark Streaming").setMaster("local[*]");
+        Logger.getLogger("org").setLevel(Level.OFF);
+
+        SparkConf conf=new SparkConf().setAppName("Exercice Vente with file - Spark Streaming").setMaster("local[*]");
 
         JavaStreamingContext sc=new JavaStreamingContext(conf, Durations.seconds(10));
 
-        JavaDStream<String> ventes=sc.textFileStream("src/main/resources/input/ventes/vente1.txt");
+        JavaDStream<String> ventes=sc.textFileStream("src/main/resources/input/ventes");
 
         JavaPairDStream<String, Double> ventesParVille = ventes.mapToPair(ligne -> new Tuple2<>(ligne.split(" ")[1], Double.parseDouble(ligne.split(" ")[3])));
 

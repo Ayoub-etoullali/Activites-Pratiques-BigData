@@ -8,11 +8,15 @@ import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import scala.Tuple2;
 
 import java.util.Arrays;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Application2 {
     public static void main(String[] args) throws InterruptedException {
 
-        SparkConf conf=new SparkConf().setAppName("Exercice Vente with socket - Spark Streaming").setMaster("local[*]");
+        Logger.getLogger("org").setLevel(Level.OFF);
+
+        SparkConf conf=new SparkConf().setAppName("Exercice Vente with HDFS - Spark Streaming").setMaster("local[*]");
 
         JavaStreamingContext sc=new JavaStreamingContext(conf, Durations.seconds(10));
 

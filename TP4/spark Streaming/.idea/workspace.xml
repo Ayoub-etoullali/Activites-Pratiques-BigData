@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b62c7a5-205f-48ad-bd89-2ef12705bb91" name="Changes" comment="" />
+    <list default="true" id="3b62c7a5-205f-48ad-bd89-2ef12705bb91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Words_Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input/ventes/vente1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/vente1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Words_Counter.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,38 +50,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/Tests/spark-sql&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/TPs/Activites-Pratiques-BigData/TP4/spark Streaming/src/main/resources/input/ventes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\ventes" />
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\names" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\java\ma\enset" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources" />
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\names" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input\names" />
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\names" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input\names" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.enset.Exercice1" />
       <recent name="ma.enset.Exercice2" />
       <recent name="ma.enset" />
     </key>
@@ -101,6 +121,7 @@
       <workItem from="1680074489408" duration="35000" />
       <workItem from="1680095032486" duration="3940000" />
       <workItem from="1680528087009" duration="8000" />
+      <workItem from="1680842586416" duration="9366000" />
     </task>
     <servers />
   </component>
