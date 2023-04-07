@@ -11,7 +11,7 @@ L’hôpital national souhaite traiter ces données au moyen d’une application
   
   1. Afficher le nombre de consultations par jour.
 
-  2. Afficher le nombre de consultation par médecin. Le format d’affichage est le suivant :
+  2. Afficher le nombre de consultation par médecin. Le format d’affichage est le suivant : NOM | PRENOM | NOMBRE DE CONSULTATION
 
   3. Afficher pour chaque médecin, le nombre de patients qu’il a assisté.
 
