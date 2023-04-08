@@ -15,6 +15,14 @@ L’hôpital national souhaite traiter ces données au moyen d’une application
 
   3. Afficher pour chaque médecin, le nombre de patients qu’il a assisté.
 
+#### Demo :
+https://user-images.githubusercontent.com/92756846/230735909-02098aa9-02d4-4c86-b52f-b21edc2d135d.mp4
+<div align="center">
+       <p>
+       <sup>  <strong>Vidéo -</strong>  Spark SQL</sup>
+       </p>
+</div>
+
   ### II. Traitement de données en streaming.
   On souhaite développer pour l’hôpital une application Spark qui reçois les incidents de
   l’hôpital en streaming avec Structured Streaming. Les incidents sont reçu en streaming dans
@@ -25,3 +33,5 @@ L’hôpital national souhaite traiter ces données au moyen d’une application
   1. Afficher d’une manière continue le nombre d’incidents par service.
 
   2. Afficher d’une manière continue les deux année ou il a y avait plus d’incidents.
+
+<kbd>Enjoy Code</kbd> 👨‍💻
