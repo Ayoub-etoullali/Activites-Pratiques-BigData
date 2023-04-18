@@ -5,22 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b62c7a5-205f-48ad-bd89-2ef12705bb91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/tp-sparksal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/tp-sparksal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/tpspark1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/TP2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP3/Exercices/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice2/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Words_Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input/ventes/vente1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/vente1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/input/vente1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/input/vente1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/input/ventes/vente1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Words_Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/src/main/java/ma/enset/dataMysql/QuerySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/src/main/java/ma/enset/dataMysql/QuerySql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/Dataframes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/Dataframes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/QuerySql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/QuerySql.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/TPs/Activites-Pratiques-BigData/TP4/spark Streaming/src/main/resources/input/ventes",
+    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/TPs/Activites-Pratiques-BigData/TP4/spark Streaming/src/main/resources/input/names",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,14 +79,14 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\ventes" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\names" />
+      <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources\input\ventes" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\java\ma\enset" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\TPs\Activites-Pratiques-BigData\TP4\spark Streaming\src\main\resources" />
       <recent name="D:\Leçons\ENSET Mohammedia\ENSET\S4\Big data\Tests\spark Streaming\src\main\resources\input\names" />
@@ -90,6 +104,21 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ma.enset.Exercice1.Application3" />
+      <module name="sparkStreaming" />
+      <option name="PROGRAM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spark Streaming" />
       <method v="2">
@@ -122,6 +151,12 @@
       <workItem from="1680095032486" duration="3940000" />
       <workItem from="1680528087009" duration="8000" />
       <workItem from="1680842586416" duration="9366000" />
+      <workItem from="1681133340336" duration="3856000" />
+      <workItem from="1681367055793" duration="5813000" />
+      <workItem from="1681742631220" duration="1101000" />
+      <workItem from="1681842358647" duration="1444000" />
+      <workItem from="1681853100605" duration="472000" />
+      <workItem from="1681853791855" duration="5738000" />
     </task>
     <servers />
   </component>

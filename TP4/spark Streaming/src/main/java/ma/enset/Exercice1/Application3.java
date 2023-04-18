@@ -19,7 +19,7 @@ public class Application3 {
 
         SparkConf conf=new SparkConf().setAppName("Word Count with TCP - Spark Streaming").setMaster("local[*]");
 
-        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(5000));
+        JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(10000));
 
         // Create a DStream that will connect to hostname:port, like localhost:9090
         JavaReceiverInputDStream<String> DStreamLines = sc.socketTextStream("localhost", 9090); //pas démarrer un serveur mais connecter à un serveur
@@ -28,7 +28,7 @@ public class Application3 {
 
         // Count each word in each batch
         JavaPairDStream<String, Integer> DStreamWordsPair = DStreamWords.mapToPair(mot -> new Tuple2<>(mot, 1));
-        JavaPairDStream<String, Integer> DStreamWordsPairCount = DStreamWordsPair.reduceByKey((a, b) -> a + b);
+        JavaPairDStream<String, Integer> DStreamWordsPairCount = DStreamWordsPair.reduceByKey(Integer::sum);
 
         DStreamWordsPairCount.print();
         sc.start();

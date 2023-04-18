@@ -15,7 +15,11 @@ public class QuerySql {
     public static void main(String[] args) {
 
         Logger.getLogger("org").setLevel(Level.OFF);
-        SparkSession ss=SparkSession.builder().master("local[*]").appName("Traitement de données stockées dans Mysql [Query SQL]").getOrCreate();
+        SparkSession ss=SparkSession
+                .builder()
+                .master("local[*]")
+                .appName("Traitement de données stockées dans Mysql [Query SQL]")
+                .getOrCreate();
 
         Map<String,String> options=new HashMap<>();
         options.put("driver","com.mysql.cj.jdbc.Driver");

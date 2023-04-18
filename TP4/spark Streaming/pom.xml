@@ -26,7 +26,11 @@
             <artifactId>spark-streaming_2.13</artifactId>
             <version>3.3.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+            <version>3.0.16</version>
+        </dependency>
     </dependencies>
 
 </project>

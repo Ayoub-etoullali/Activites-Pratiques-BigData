@@ -26,7 +26,8 @@ public class Application2 {
 
         JavaPairDStream<String, Integer> DStreamWordsPair = DStreamWords.mapToPair(mot -> new Tuple2<>(mot, 1));
 
-        JavaPairDStream<String, Integer> DStreamWordsPairCount = DStreamWordsPair.reduceByKey((a, b) -> a + b);
+        JavaPairDStream<String,
+                Integer> DStreamWordsPairCount = DStreamWordsPair.reduceByKey((a, b) -> a + b);
 
         DStreamWordsPairCount.print();
         sc.start();
