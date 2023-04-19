@@ -1,37 +1,33 @@
-# TP5: Spark SQL
+# TP6: Ventes avec Structured Streaming en pyhton
 
-## Enoncé : 
-L’hôpital national souhaite traiter ces données au moyen d’une application Spark d’une manière parallèle est distribuée. L’hôpital possède des données stockées dans une base de données relationnel et des fichiers csv. L’objectif est de traiter ces données en utilisant Spark SQL à travers les APIs DataFrame et Dataset pour extraire des informations utiles afin de prendre des décisions.
-***
+## Exercice 1 : Word Count
 
-  ### I. Traitement de données stockées dans Mysql
-  L’hôpital possède une application web pour gérer les consultations de ces patients, les données sont stockées dans une base de données MYSQL nommée DB_HOPITAL, qui contient trois tables PATIENTS, MEDECINS et CONSULTATIONS.
-  #### Travail à faire :
-  Vous créez la base de données et les tables et vous répondez aux questions suivantes :
+```
+>>> from pyspark.sql import SparkSession
+>>> from pyspark.sql.functions import explode
+>>> from pyspark.sql.functions import split
+>>> dfLines=spark.readStream.format("socket").option("host","localhost").option("port",8888).load()
+>>> dfWords=dfLines.select(explode(split(dfLines["value"]," ")).alias("words"))
+>>> dfWordCount=dfWords.groupBy("words").count()
+>>> dfWordCount.writeStream.format("console").outputMode("update").trigger(processingTime='5 seconds').start().awaitForTermination()
+```
+
+## Exercice 2 :
+![image](https://user-images.githubusercontent.com/92756846/224802856-e9fefc64-4178-4037-b94b-8b48dfdc1439.png)
   
-  1. Afficher le nombre de consultations par jour.
+  #### Fichier "ventes.txt"
+  ![image](https://user-images.githubusercontent.com/92756846/225772439-ea4eb6c8-1472-40a0-b109-bf214532374b.png)
 
-  2. Afficher le nombre de consultation par médecin. Le format d’affichage est le suivant : NOM | PRENOM | NOMBRE DE CONSULTATION
+  ### Question 1 :
 
-  3. Afficher pour chaque médecin, le nombre de patients qu’il a assisté.
+  ### Question 2 : 
 
 #### Demo :
 https://user-images.githubusercontent.com/92756846/230735909-02098aa9-02d4-4c86-b52f-b21edc2d135d.mp4
 <div align="center">
        <p>
-       <sup>  <strong>Vidéo -</strong>  Spark SQL</sup>
+       <sup>  <strong>Vidéo -</strong> Ventes avec Structured Streaming en pyhton</sup>
        </p>
 </div>
-
-  ### II. Traitement de données en streaming.
-  On souhaite développer pour l’hôpital une application Spark qui reçois les incidents de
-  l’hôpital en streaming avec Structured Streaming. Les incidents sont reçu en streaming dans
-  des fichiers csv (voir le fichier en pièce jointe).
-  Le format de données dans les fichiers csv et la suivante :
-  Id, titre, description, service, date
-  #### Travail à faire :
-  1. Afficher d’une manière continue le nombre d’incidents par service.
-
-  2. Afficher d’une manière continue les deux année ou il a y avait plus d’incidents.
 
 <kbd>Enjoy Code</kbd> 👨‍💻
