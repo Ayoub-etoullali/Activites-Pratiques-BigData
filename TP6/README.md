@@ -23,7 +23,6 @@
   ### Question 2 : 
 
 #### Demo :
-https://user-images.githubusercontent.com/92756846/230735909-02098aa9-02d4-4c86-b52f-b21edc2d135d.mp4
 <div align="center">
        <p>
        <sup>  <strong>Vidéo -</strong> Ventes avec Structured Streaming en pyhton</sup>
