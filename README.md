@@ -12,7 +12,9 @@
 <a href="https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/tree/main/TP4">
   (4) Spark - Streaming </a> <br>
   <a href="https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/tree/main/TP5">
-  (5) Spark SQL </a>
+  (5) Spark SQL </a> <br>
+  <a href="https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/tree/main/TP6">
+  (6) Spark SQL </a>
 
   <br><br>
 
