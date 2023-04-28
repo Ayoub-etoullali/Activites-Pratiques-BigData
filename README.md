@@ -14,8 +14,8 @@
   <a href="https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/tree/main/TP5">
   (5) Spark SQL </a> <br>
   <a href="https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/tree/main/TP6">
-  (6) Spark SQL </a>
+  (6) Ventes avec Structured Streaming en pyhton </a> <br>
 
-  <br><br>
+ <br>
 
 ![ayoub](https://user-images.githubusercontent.com/92756846/220727344-dbb21e84-4584-4055-bde5-a3c90a64a618.jpg)
