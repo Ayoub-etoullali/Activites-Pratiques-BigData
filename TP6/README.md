@@ -26,9 +26,6 @@
 >> ventesParVill=ventes.mapToPair(ligne -> new Tuple2<>(ligne.split(" ")[1], Double.parseDouble(ligne.split(" ")[3])))
 >> totalParVille = ventesParVille.reduceByKey(Lambda v1,v2:v1+v2)
 >> totalParVille.show()
->> ventesParVilleParAnnee = ventes.mapToPair(ligne -> new Tuple2<>(ligne.split(" ")[0].split("/")[2] + " " + ligne.split(" ")[1], Double.parseDouble(ligne.split(" ")[3])));
->> totalParVilleParAnnee = ventesParVilleParAnnee.reduceByKey(Lambda v1,v2:v1+v2)
->> totalParVilleParAnnee.show()
 ```
   ### Question 2 : 
 ```
