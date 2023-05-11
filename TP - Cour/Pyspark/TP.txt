@@ -1,0 +1,49 @@
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName("tp pyspark").master("local[*]").getOrCreate()
+sc=spark.sparkContext
+rddLines =sc.textFile("/names.txt")
+rddLines.collect()
+rddLines.printSchema() ? parque c'est un RDD !!
+--------------------------------------------------------
+** M1 **
+def splitLines(l):
+      return l.split(" ")
+
+rddWords=rddLines.map(splitLines)
+rddWords.collect()
+** M2 **
+rddWords = rddLines.flatMap(lambda l: l.split(" "))
+rddWords.collect()
+--------------------------------------------------------
+rddPairsWords=rddWords.map(lambda w:(w,1))
+rddPairsWords.collect()
+rddWordCount=rddPairsWords.reduceByKey(lambda a,b:a+b)
+rddWordCount.collect() 
+
+=> N.B: dans l'éxécution au master, fait print(rddWordCount.collect()) + supprimer .master("local[*]")
+
+************************************************************************************************
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import split
+from pyspark.sql.functions import explode
+spark=SparkSession.builder.AppName("tp pyspark").master("local[*]").getOrCreate()
+df1=spark.read.format("csv").option("inferSchema",true).load("ventes.csv")
+df1.printSchema()
+df1.select("date","ville").show()
+df1.select(df1["date"],df1["ville"]).show()
+df1.select(df1["date"],df1["ville"]+2000).show() // la plus pratique : df1.select(df1.date,df1.ville+2000).show()
+
+df2=spark.read.text("words.txt")
+df2.printSchema()
+def splitLines(row):
+      return split(row," ") //split("row"," ") !
+df2.select(splitLines(row))
+df2.show()
+def explodeSplit(row):
+      return explode(splitLines(row))
+dfWords=df2.select(explode(row).alias("words")).show()
+dfWords.groupBy("words").count().show()
+
+df3=spark.readStream.format("socket").option("host","localhost").option("port","8088").load()
+df3.WriteStream.format("console").output("append").trigger(processingTime="6 seconds").start().awaitForTermination()
