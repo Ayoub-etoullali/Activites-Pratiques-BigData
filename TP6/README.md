@@ -6,6 +6,7 @@
 >> from pyspark.sql import SparkSession
 >> from pyspark.sql.functions import explode
 >> from pyspark.sql.functions import split
+>> spark = SparkSession.builder.appName("tp pyspark").master("local[*]").getOrCreate()
 >> dfLines=spark.readStream.format("socket").option("host","localhost").option("port",8888).load()
 >> dfWords=dfLines.select(explode(split(dfLines["value"]," ")).alias("words"))
 >> dfWordCount=dfWords.groupBy("words").count()
@@ -25,20 +26,20 @@
   ### Question 1 :
 ```
 >> from pyspark.sql import SparkSession
+>> spark = SparkSession.builder.appName("tp pyspark").master("local[*]").getOrCreate()
 >> df=spark.readStream.format("socket").option("host","localhost").option("port","8088").load()
->> ventes=df.WriteStream.format("console").output("append").trigger(processingTime="6 seconds").start().awaitForTermination()
 >> ventesParVill=ventes.mapToPair(ligne -> new Tuple2<>(ligne.split(" ")[1], Double.parseDouble(ligne.split(" ")[3])))
 >> totalParVille = ventesParVille.reduceByKey(Lambda v1,v2:v1+v2)
->> totalParVille.show()
+>> totalParVille.WriteStream.format("console").output("append").trigger(processingTime="6 seconds").start().awaitForTermination()
 ```
   ### Question 2 : 
 ```
 >> from pyspark.sql import SparkSession
+>> spark = SparkSession.builder.appName("tp pyspark").master("local[*]").getOrCreate()
 >> df=spark.readStream.format("socket").option("host","localhost").option("port","8088").load()
->> ventes=df.WriteStream.format("console").output("append").trigger(processingTime="6 seconds").start().awaitForTermination()
 >> ventesParVilleParAnnee = ventes.mapToPair(ligne -> new Tuple2<>(ligne.split(" ")[0].split("/")[2] + " " + ligne.split(" ")[1], Double.parseDouble(ligne.split(" ")[3])));
 >> totalParVilleParAnnee = ventesParVilleParAnnee.reduceByKey(Lambda v1,v2:v1+v2)
->> totalParVilleParAnnee.show()
+>> totalParVilleParAnnee.WriteStream.format("console").output("append").trigger(processingTime="6 seconds").start().awaitForTermination()
 ```
 #### Demo :
 <div align="center">
