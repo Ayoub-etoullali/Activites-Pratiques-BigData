@@ -13,7 +13,7 @@
 ```
 
 ![image](https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/f00136f0-e111-47cc-821d-8f379803d8a7)
-<br><br>
+
 ![image](https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/51364a03-4091-4b8a-a2a1-488aacfc2c5d)
 
 ## Exercice 2 :
