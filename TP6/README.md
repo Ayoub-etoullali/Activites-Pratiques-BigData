@@ -12,6 +12,10 @@
 >> dfWordCount.writeStream.format("console").outputMode("update").trigger(processingTime='5 seconds').start().awaitForTermination()
 ```
 
+![image](https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/f00136f0-e111-47cc-821d-8f379803d8a7)
+<br>
+![image](https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/51364a03-4091-4b8a-a2a1-488aacfc2c5d)
+
 ## Exercice 2 :
 ![image](https://user-images.githubusercontent.com/92756846/224802856-e9fefc64-4178-4037-b94b-8b48dfdc1439.png)
   
