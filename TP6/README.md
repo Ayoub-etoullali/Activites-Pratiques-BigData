@@ -17,6 +17,9 @@
 
 ![image](https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/51364a03-4091-4b8a-a2a1-488aacfc2c5d)
 
+### Demo
+https://github.com/Ayoub-etoullali/Activites-Pratiques-BigData/assets/92756846/b4f367ab-5712-44b5-a1a5-c9830007b931
+
 ## Exercice 2 :
 ![image](https://user-images.githubusercontent.com/92756846/224802856-e9fefc64-4178-4037-b94b-8b48dfdc1439.png)
   
