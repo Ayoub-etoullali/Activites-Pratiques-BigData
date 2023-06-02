@@ -37,7 +37,7 @@ public class Dataframes {
         Dataset<Row> dfHopital = spark.readStream().format("csv")
                 .option("header", true)
                 .schema(venteSchema)
-                .load("hdfs://localhost:19000/hopital");
+                .load("hdfs://localhost:9000/Tests");
 
         StreamingQuery streamingQuery = dfHopital
                 .writeStream()

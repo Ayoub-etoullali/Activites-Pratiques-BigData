@@ -1,0 +1,3 @@
+sqoop import --connect jdbc:mysql://localhost/DB_BDCC --username "root" --password "" --table ETUDIANT --target-dir /sqoop
+sqoop import --connect jdbc:mysql://192.168.0.104:3306/DB_BDCC --username "root" --password "" --table ETUDIANT --target-dir /sqoop
+sqoop import --connect jdbc:mysql://192.168.0.104:3306/DB_BDCC --username root -- password '' --table ETUDIANT --target-dir /user/ayoub/hadoop/data/etudiants

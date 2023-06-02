@@ -5,36 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b62c7a5-205f-48ad-bd89-2ef12705bb91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../+/tp-sparksal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/tp-sparksal/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/tpspark1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../+/tpspark1/target/classes/Application3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/TP2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP3/Exercices/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/remote-targets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/.idea/Test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../+/Test1/TP_MAPREDUCE/target/classes/WordCountReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/Exercice1-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/target/Exercice1-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/ma/enset/VenteReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/output/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/classes/output/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/src/main/resources/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/src/main/resources/output/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/src/main/resources/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/src/main/resources/output/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP2/Exercice 2/target/classes/ma/enset/VenteReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/java/ma/enset/Exercice1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/java/ma/enset/Exercice2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/java/ma/enset/Exercice3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/resources/input/.gitattributes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/resources/input/1750.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/resources/input/ventes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/src/names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/Exercice1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/input/1750.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/input/ventes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/ma/enset/Exercice1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/ma/enset/Exercice2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/classes/ma/enset/Exercice3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TP3/Exercices/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/Exercice1/Application3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/input/vente1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/input/vente1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/input/ventes/vente1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input/names/names1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/names/names1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/input/names/names1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/input/names/names1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice1/Application3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ma/enset/Exercice2/Application2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/src/main/java/ma/enset/dataMysql/QuerySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/src/main/java/ma/enset/dataMysql/QuerySql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/Dataframes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/Dataframes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/QuerySql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TP5/tp-spark-sql/target/classes/ma/enset/dataMysql/QuerySql.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +104,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/TPs/Activites-Pratiques-BigData/TP4/spark Streaming/src/main/resources/input/names",
+    "last_opened_file_path": "D:/Leçons/ENSET Mohammedia/ENSET/S4/Big data/TPs/Activites-Pratiques-BigData/TP4/spark Streaming",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -103,13 +137,60 @@
       <recent name="ma.enset" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application3">
     <configuration name="Application" type="Application" factoryName="Application" singleton="false">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ma.enset.Exercice1.Application1" />
+      <module name="sparkStreaming" />
+      <option name="PROGRAM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
+      <projectPathOnTarget name="projectPathOnTarget" value="/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.3.2/jbr/bin /spark Streaming" />
+      <target name="WSL - Ubuntu" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="MAIN_CLASS_NAME" value="ma.enset.Exercice1.Application1" />
+      <module name="sparkStreaming" />
+      <option name="PROGRAM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
+      <projectPathOnTarget name="projectPathOnTarget" value="/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.3.2/jbr/bin /spark Streaming" />
+      <target name="WSL - Ubuntu" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ma.enset.Exercice1.Application2" />
+      <module name="sparkStreaming" />
+      <option name="PROGRAM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
+      <projectPathOnTarget name="projectPathOnTarget" value="/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.3.2/jbr/bin /spark Streaming" />
+      <target name="WSL - Ubuntu" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ma.enset.Exercice1.Application3" />
       <module name="sparkStreaming" />
       <option name="PROGRAM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
+      <projectPathOnTarget name="projectPathOnTarget" value="/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.3.2/jbr/bin /spark Streaming" />
+      <target name="WSL - Ubuntu" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
@@ -132,6 +213,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application1" />
+      <item itemvalue="Application.Application2" />
+      <item itemvalue="Application.Application3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,6 +249,9 @@
       <workItem from="1681842358647" duration="1444000" />
       <workItem from="1681853100605" duration="472000" />
       <workItem from="1681853791855" duration="5738000" />
+      <workItem from="1685654610223" duration="228000" />
+      <workItem from="1685659137381" duration="4223000" />
+      <workItem from="1685664052121" duration="12000" />
     </task>
     <servers />
   </component>

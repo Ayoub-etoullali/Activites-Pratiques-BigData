@@ -22,7 +22,7 @@ public class Application3 {
         JavaStreamingContext sc=new JavaStreamingContext(conf, new Duration(10000));
 
         // Create a DStream that will connect to hostname:port, like localhost:9090
-        JavaReceiverInputDStream<String> DStreamLines = sc.socketTextStream("localhost", 9090); //pas démarrer un serveur mais connecter à un serveur
+        JavaReceiverInputDStream<String> DStreamLines = sc.socketTextStream("localhost", 8890); //pas démarrer un serveur mais connecter à un serveur
 
         JavaDStream<String> DStreamWords = DStreamLines.flatMap(line -> Arrays.asList(line.split(" ")).iterator());
 

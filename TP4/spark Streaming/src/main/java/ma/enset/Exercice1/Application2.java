@@ -20,7 +20,7 @@ public class Application2 {
 
         JavaStreamingContext sc = new JavaStreamingContext(conf, new Duration(10000));
 
-        JavaDStream<String> DStreamLines = sc.textFileStream("hdfs://localhost:19000/names");
+        JavaDStream<String> DStreamLines = sc.textFileStream("hdfs://localhost:19000/ventes");
 
         JavaDStream<String> DStreamWords = DStreamLines.flatMap(line -> Arrays.asList(line.split(" ")).iterator());
 
